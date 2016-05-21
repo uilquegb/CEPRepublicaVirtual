@@ -167,19 +167,4 @@ Class CEPRepublicaVirtual
         busca_cep = arr_2   
     End Function
 End Class
-
-'Dim oCep
-'Set oCep = New CEPRepublicaVirtual
-'oCep.CEP = Request.QueryString("cep")
-'oCep.Buscar
-
-'Response.Write "oCep.UF " & oCep.UF & "<br />"
-'Response.Write "oCep.Cidade " & oCep.Cidade & "<br />"
-'Response.Write "oCep.Bairro " & oCep.Bairro & "<br />"
-'Response.Write "oCep.Logradouro " & oCep.Logradouro & "<br />"
-'Response.Write "oCep.TipoLogradouro " & oCep.TipoLogradouro & "<br />"
-'Response.Write "oCep.CEPUnico " & oCep.CEPUnico & "<br />"
-'Response.Write "oCep.CEP " & oCep.CEP & "<br />"
-'Response.Write "oCep.DescricaoErro " & oCep.DescricaoErro & "<br />"
-'Response.Write "oCep.Erro " & oCep.Erro & "<br />"
 %>
